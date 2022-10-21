@@ -6,7 +6,7 @@
 ### **<div align="center">I'm Norman Linn, a freelance web developer 👨‍💻</div>**  
   
 
-- 🔭 I’m currently working as a [freelance]().  
+- 🔭 I’m currently working as a [Junior Web Developer]().  
   
 
 - 🌱 I’m currently learning Hyperledger and Kubernetes  
