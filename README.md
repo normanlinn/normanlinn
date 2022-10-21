@@ -9,7 +9,7 @@
 - 🔭 I’m currently working as a [Junior Web Developer]().  
   
 
-- 🌱 I’m currently learning Hyperledger and Kubernetes  
+- 🌱 I’m currently procrastinating
   
 
 - ❓ Ask me about anything related to MERN stack and related technologies  
