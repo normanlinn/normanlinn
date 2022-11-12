@@ -3,16 +3,16 @@
 </div>  
   
 
-### **<div align="center">I'm Norman Linn, a freelance web developer 👨‍💻</div>**  
+### **<div align="center">I'm Norman Linn, a web developer 👨‍💻</div>**  
   
 
 - 🔭 I’m currently working as a [Junior Web Developer]().  
   
 
-- 🌱 I’m currently procrastinating
+- 🌱 I’m currently, howevrer, procrastinating
   
 
-- ❓ Ask me about anything related to MERN stack and related technologies  
+- ❓ Ask me about anything related to C#, .Net, Web Development and related technologies  
   
 
 - ⚡ Fun fact: I use tabs over spaces 😛  
