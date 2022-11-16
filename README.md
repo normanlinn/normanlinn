@@ -3,20 +3,24 @@
 </div>  
   
 
-### **<div align="center">I'm Norman Linn, a web developer 👨‍💻</div>**  
-  
+### **<div align="center">I'm Zaw Linn Naing, a web developer 👨‍💻</div>**  
 
-- 🔭 I’m currently working as a [Junior Web Developer]().  
-  
 
-- 🌱 I’m currently, howevrer, procrastinating
-  
+- 👋 Hi, I’m @normanlinn.
+ 
+- 👀 I’m interested in programming
+
+- 🌱 I’m currently learning Web Developement.
+
+- 🔭 I’m currently working as a [Internship Developer]().
+
+- 💞️ I’m looking to collaborate on JavaScript and React Projects.
 
 - ❓ Ask me about anything related to C#, .Net, Web Development and related technologies  
-  
 
 - ⚡ Fun fact: I use tabs over spaces 😛  
-  
+
+- 📫 Reach me via zawlinnaing-it@hbtu.edu.mm
 
 <br/>  
 
