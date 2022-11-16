@@ -6,7 +6,7 @@
 ### **<div align="center">I'm Zaw Linn Naing, a web developer 👨‍💻</div>**  
 
 
-- 👋 Hi, I’m @normanlinn.
+- 👋 Hi, I’m [@normanlinn](https://github.com/normanlinn).
  
 - 👀 I’m interested in programming
 
