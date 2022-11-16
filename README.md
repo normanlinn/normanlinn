@@ -8,7 +8,7 @@
 
 - 👋 Hi, I’m [@normanlinn](https://github.com/normanlinn).
  
-- 👀 I’m interested in programming
+- 👀 I’m interested in Programming.
 
 - 🌱 I’m currently learning Web Developement.
 
