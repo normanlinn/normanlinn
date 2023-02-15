@@ -3,12 +3,12 @@
 </div>  
   
 
-### **<div align="center">I'm Zaw Linn Naing, a web developer 👨‍💻</div>**  
+### **<div align="center">I'm Zaw Linn Naing, A Web Developer 👨‍💻</div>**  
 
 
 - 👋 Hi, I’m [@normanlinn](https://github.com/normanlinn).
  
-- 👀 I’m interested in Programming.
+- 👀 I’m interested in Computer Science and IT.
 
 - 🌱 I’m currently learning Web Developement.
 
