@@ -155,7 +155,7 @@
 
 
 ## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=normanlinn&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=normanlinn&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" align="center" /></div>  
 <br/>  
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=normanlinn&&style=flat-square" align="center" />
