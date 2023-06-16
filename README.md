@@ -3,7 +3,7 @@
 </div>  
   
 
-### **<div align="center">I'm Zaw Linn Naing, A Web Developer 👨‍💻</div>**  
+### **<div align="center">I'm Zaw Lin Naing, A Web Developer 👨‍💻</div>**  
 
 
 - 👋 Hi, I’m [@normanlinn](https://github.com/normanlinn).
