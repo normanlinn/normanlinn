@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Zaw Lin Naing — Frontend Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b0f1a"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="1" stop-color="#0b1a30"/>
     </linearGradient>
     <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7dd3fc">
-        <animate attributeName="stop-color" values="#7dd3fc;#c084fc;#f472b6;#7dd3fc" dur="8s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#22d3ee;#bae6fd;#38bdf8" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="1" stop-color="#c084fc">
-        <animate attributeName="stop-color" values="#c084fc;#f472b6;#7dd3fc;#c084fc" dur="8s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#bae6fd;#38bdf8;#22d3ee" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
@@ -23,8 +23,8 @@
 
   <style>
     .name { font: 800 64px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1.5px; }
-    .role { font: 600 22px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #cbd5e1; }
-    .meta { font: 500 16px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #64748b; }
+    .role { font: 600 22px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #e0f2fe; }
+    .meta { font: 500 16px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #6b8bb0; }
     .rise { opacity: 0; animation: rise 1s cubic-bezier(.2,.8,.2,1) forwards; }
     .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
     @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
@@ -59,21 +59,21 @@
   <g clip-path="url(#frame)">
     <rect width="1200" height="320" fill="url(#bg)"/>
     <g filter="url(#blur)" opacity=".55">
-      <circle class="orb" cx="220" cy="80" r="140" fill="#3b82f6"/>
-      <circle class="orb o2" cx="900" cy="260" r="160" fill="#a855f7"/>
-      <circle class="orb o3" cx="620" cy="0" r="120" fill="#ec4899"/>
+      <circle class="orb" cx="220" cy="80" r="140" fill="#0ea5e9"/>
+      <circle class="orb o2" cx="900" cy="260" r="160" fill="#1d4ed8"/>
+      <circle class="orb o3" cx="620" cy="0" r="120" fill="#06b6d4"/>
     </g>
     <rect width="1200" height="320" fill="url(#grid)"/>
 
     <!-- orbit decoration -->
     <g class="float">
       <g class="ring" fill="none" stroke-width="1.5">
-        <circle cx="1010" cy="160" r="96" stroke="#7dd3fc" stroke-opacity=".35" stroke-dasharray="4 10"/>
-        <circle cx="1106" cy="160" r="6" fill="#7dd3fc"/>
+        <circle cx="1010" cy="160" r="96" stroke="#38bdf8" stroke-opacity=".35" stroke-dasharray="4 10"/>
+        <circle cx="1106" cy="160" r="6" fill="#38bdf8"/>
       </g>
       <g class="ring ring2" fill="none" stroke-width="1.5">
-        <circle cx="1010" cy="160" r="62" stroke="#c084fc" stroke-opacity=".45" stroke-dasharray="2 6"/>
-        <circle cx="1010" cy="98" r="5" fill="#f472b6"/>
+        <circle cx="1010" cy="160" r="62" stroke="#22d3ee" stroke-opacity=".45" stroke-dasharray="2 6"/>
+        <circle cx="1010" cy="98" r="5" fill="#bae6fd"/>
       </g>
       <text x="1010" y="174" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="40" font-weight="700" fill="url(#text)">&lt;/&gt;</text>
     </g>
