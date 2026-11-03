@@ -1,4 +1,4 @@
-<img src="./assets/profile-cover.svg" width="100%" alt="Zaw Lin Naing — frontend developer in Los Angeles" />
+<img src="./assets/profile-terminal.svg" width="100%" alt="Zaw Lin Naing — frontend developer in Los Angeles" />
 
 [**Portfolio ↗**](https://normanlinn.github.io/portfolio/) · [**Repositories ↗**](https://github.com/normanlinn?tab=repositories)
 
@@ -19,9 +19,3 @@ I’m Norman, a frontend developer in Los Angeles. I build web apps for everyday
 **Exploring:** Accessible motion, design systems, and backend development with Node.js and Go  
 **Background:** C# and .NET
 
-<details>
-<summary>How this profile was made</summary>
-
-The banner is a small SVG stored in this repository. The rest is Markdown, so the profile stays easy to update and doesn’t rely on external widgets.
-
-</details>
