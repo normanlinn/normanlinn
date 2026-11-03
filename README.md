@@ -23,8 +23,8 @@ I’m Norman, a frontend developer in Los Angeles. I build web apps for everyday
 
 <a href="https://github.com/normanlinn?tab=repositories"><img src="./assets/profile-activity.svg" width="100%" alt="Public repositories, followers, stars, and primary language" /></a>
 
-<a href="https://github.com/normanlinn"><img src="https://streak-stats.demolab.com/?user=normanlinn&amp;background=181818&amp;border=414141&amp;stroke=414141&amp;ring=D4B5A2&amp;fire=D4B5A2&amp;currStreakNum=F3EFE8&amp;sideNums=F3EFE8&amp;currStreakLabel=D4B5A2&amp;sideLabels=C1BDB6&amp;dates=C1BDB6&amp;border_radius=14" width="100%" alt="GitHub contributions, current streak, and longest streak" /></a>
+<a href="https://github.com/normanlinn"><img src="https://streak-stats.demolab.com/?user=normanlinn&amp;background=161B22&amp;border=303A46&amp;stroke=303A46&amp;ring=B9C8D9&amp;fire=B9C8D9&amp;currStreakNum=F1F5F9&amp;sideNums=F1F5F9&amp;currStreakLabel=B9C8D9&amp;sideLabels=A5AFBD&amp;dates=A5AFBD&amp;border_radius=14" width="100%" alt="GitHub contributions, current streak, and longest streak" /></a>
 
-<img src="https://komarev.com/ghpvc/?username=normanlinn&amp;color=414141&amp;label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=normanlinn&amp;color=303A46&amp;label=PROFILE+VIEWS" alt="Profile views" />
 
 <sub>The first panel is a snapshot of public repositories excluding forks. Language counts use each repository’s primary language. Streak and views are live widgets.</sub>

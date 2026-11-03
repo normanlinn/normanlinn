@@ -6,11 +6,11 @@ text{font-family:ui-monospace,Consolas,monospace}.metric{animation:rise .6s ease
 @keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @media(prefers-reduced-motion:reduce){.metric,.meter{animation:none}}
 </style>
-<rect width="900" height="206" rx="16" fill="#181818"/><rect x="1" y="1" width="898" height="204" rx="15" fill="none" stroke="#414141"/>
-<text x="32" y="37" fill="#d4b5a2" font-size="17">$ git status --public</text>
-<path d="M32 54h836M545 74v100" stroke="#414141"/>
-<g fill="#f3efe8" font-size="43"><text class="metric" style="--delay:.1s" x="32" y="121">6</text><text class="metric" style="--delay:.2s" x="195" y="121">6</text><text class="metric" style="--delay:.3s" x="354" y="121">0</text></g>
-<g fill="#c1bdb6" font-size="15"><text x="32" y="150">PUBLIC REPOS</text><text x="195" y="150">FOLLOWERS</text><text x="354" y="150">STARS EARNED</text></g>
-<text x="570" y="93" fill="#c1bdb6" font-size="14">PRIMARY LANGUAGE</text><text x="570" y="121" fill="#f3efe8" font-size="21">TypeScript</text><text x="570" y="164" fill="#c1bdb6" font-size="14">4 of 6 public repos</text>
-<rect x="570" y="132" width="285" height="6" rx="3" fill="#414141"/><g transform="translate(570 0)"><rect class="meter" y="132" width="190" height="6" rx="3" fill="#d4b5a2"/></g>
+<rect width="900" height="206" rx="16" fill="#161B22"/><rect x="1" y="1" width="898" height="204" rx="15" fill="none" stroke="#303A46"/>
+<text x="32" y="37" fill="#B9C8D9" font-size="17">$ git status --public</text>
+<path d="M32 54h836M545 74v100" stroke="#303A46"/>
+<g fill="#F1F5F9" font-size="43"><text class="metric" style="--delay:.1s" x="32" y="121">6</text><text class="metric" style="--delay:.2s" x="195" y="121">6</text><text class="metric" style="--delay:.3s" x="354" y="121">0</text></g>
+<g fill="#A5AFBD" font-size="15"><text x="32" y="150">PUBLIC REPOS</text><text x="195" y="150">FOLLOWERS</text><text x="354" y="150">STARS EARNED</text></g>
+<text x="570" y="93" fill="#A5AFBD" font-size="14">PRIMARY LANGUAGE</text><text x="570" y="121" fill="#F1F5F9" font-size="21">TypeScript</text><text x="570" y="164" fill="#A5AFBD" font-size="14">4 of 6 public repos</text>
+<rect x="570" y="132" width="285" height="6" rx="3" fill="#303A46"/><g transform="translate(570 0)"><rect class="meter" y="132" width="190" height="6" rx="3" fill="#B9C8D9"/></g>
 </svg>
