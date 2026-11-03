@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 206" role="img" aria-labelledby="title desc">
+<title id="title">Public GitHub stats</title><desc id="desc">6 public repositories excluding forks, 6 followers, 0 stars across those repositories. TypeScript is the primary language in 4 repositories.</desc>
+<style>
+text{font-family:ui-monospace,Consolas,monospace}.metric{animation:rise .6s ease-out both;animation-delay:var(--delay)}.meter{transform-origin:0 0;animation:fill .8s ease-out .35s both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.metric,.meter{animation:none}}
+</style>
+<rect width="900" height="206" rx="16" fill="#12161D"/><rect x="1" y="1" width="898" height="204" rx="15" fill="none" stroke="#303A46"/>
+<text x="32" y="37" fill="#AFC2ED" font-size="17">PUBLIC REPOSITORY SNAPSHOT</text>
+<path d="M32 54h836M545 74v100" stroke="#303A46"/>
+<g fill="#F1F5F9" font-size="43"><text class="metric" style="--delay:.1s" x="32" y="121">6</text><text class="metric" style="--delay:.2s" x="195" y="121">6</text><text class="metric" style="--delay:.3s" x="354" y="121">0</text></g>
+<g fill="#A9B5C6" font-size="15"><text x="32" y="150">PUBLIC REPOS</text><text x="195" y="150">FOLLOWERS</text><text x="354" y="150">STARS EARNED</text></g>
+<text x="570" y="93" fill="#A9B5C6" font-size="14">PRIMARY LANGUAGE</text><text x="570" y="121" fill="#F1F5F9" font-size="21">TypeScript</text><text x="570" y="164" fill="#A9B5C6" font-size="14">4 of 6 public repos</text>
+<rect x="570" y="132" width="285" height="6" rx="3" fill="#303A46"/><g transform="translate(570 0)"><rect class="meter" y="132" width="190" height="6" rx="3" fill="#AFC2ED"/></g>
+</svg>

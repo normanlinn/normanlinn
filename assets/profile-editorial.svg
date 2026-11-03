@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" role="img" aria-labelledby="title desc">
+<title id="title">Zaw Lin Naing — Norman Linn</title><desc id="desc">Frontend developer in Los Angeles. I build interfaces that move.</desc>
+<style>
+.mono{font-family:ui-monospace,Consolas,monospace}.name{animation:rise .75s cubic-bezier(.2,.8,.2,1) both}.typing{transform-origin:0 0;animation:type 1.45s steps(29,end) .45s both}.trail{animation:draw 1.8s ease-out .2s both}.dot{animation:pulse 1.4s ease-in-out 2 1.6s}.caret{opacity:0;animation:blink .8s steps(1) 4 1.9s}
+@keyframes rise{from{opacity:0;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}@keyframes type{from{transform:scaleX(0)}to{transform:scaleX(1)}}@keyframes draw{from{stroke-dashoffset:420}to{stroke-dashoffset:0}}@keyframes pulse{50%{opacity:.35}}@keyframes blink{50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.name,.typing,.trail,.dot,.caret{animation:none}}
+</style>
+<defs><pattern id="grid" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M23 0H0V23" fill="none" stroke="#222833"/></pattern><clipPath id="mask"><g transform="translate(52 0)"><rect class="typing" y="170" width="349" height="34"/></g></clipPath></defs>
+<rect width="900" height="290" rx="16" fill="#12161D"/><rect x="1" y="1" width="898" height="288" rx="15" fill="none" stroke="#303A46"/>
+<path d="M32 59H868M32 230H868" stroke="#303A46"/>
+<text class="mono" x="38" y="39" fill="#A9B5C6" font-size="15" letter-spacing="1.7">NORMAN LINN / DEVELOPER</text>
+<text class="mono" x="862" y="39" text-anchor="end" fill="#A9B5C6" font-size="15" letter-spacing="1.7">LOS ANGELES</text>
+<rect x="641" y="75" width="217" height="138" rx="8" fill="url(#grid)"/>
+<path class="trail" d="M654 197h37l36-37h33l37-48h47" fill="none" stroke="#AFC2ED" stroke-width="2" stroke-dasharray="420"/>
+<circle class="dot" cx="844" cy="112" r="5" fill="#AFC2ED"/>
+<text class="name" x="36" y="143" font-family="Georgia,serif" font-size="74" fill="#F1F5F9">Zaw Lin Naing</text>
+<text class="mono" x="38" y="194" fill="#AFC2ED" font-size="19">&gt;</text>
+<text class="mono" x="59" y="194" textLength="332" lengthAdjust="spacingAndGlyphs" clip-path="url(#mask)" fill="#F1F5F9" font-size="19">I build interfaces that move.</text>
+<rect class="caret" x="397" y="178" width="8" height="19" fill="#AFC2ED"/>
+<text class="mono" x="38" y="264" fill="#A9B5C6" font-size="15" letter-spacing=".9">TYPESCRIPT / REACT / MOTION</text>
+<text class="mono" x="862" y="264" text-anchor="end" fill="#A9B5C6" font-size="15">PROFILE / 01</text>
+</svg>
