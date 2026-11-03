@@ -19,3 +19,12 @@ I’m Norman, a frontend developer in Los Angeles. I build web apps for everyday
 **Exploring:** Accessible motion, design systems, and backend development with Node.js and Go  
 **Background:** C# and .NET
 
+## Activity
+
+<a href="https://github.com/normanlinn?tab=repositories"><img src="./assets/profile-activity.svg" width="100%" alt="Public repositories, followers, stars, and primary language" /></a>
+
+<a href="https://github.com/normanlinn"><img src="https://streak-stats.demolab.com/?user=normanlinn&amp;background=181818&amp;border=414141&amp;stroke=414141&amp;ring=D4B5A2&amp;fire=D4B5A2&amp;currStreakNum=F3EFE8&amp;sideNums=F3EFE8&amp;currStreakLabel=D4B5A2&amp;sideLabels=C1BDB6&amp;dates=C1BDB6&amp;border_radius=14" width="100%" alt="GitHub contributions, current streak, and longest streak" /></a>
+
+<img src="https://komarev.com/ghpvc/?username=normanlinn&amp;color=414141&amp;label=PROFILE+VIEWS" alt="Profile views" />
+
+<sub>The first panel is a snapshot of public repositories excluding forks. Language counts use each repository’s primary language. Streak and views are live widgets.</sub>
