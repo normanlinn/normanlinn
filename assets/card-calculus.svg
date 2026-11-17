@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="100%" height="100%" role="img" aria-label="Derivatives Field Guide Project Card">
+  <defs>
+    <linearGradient id="bg-calc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06181f" />
+      <stop offset="100%" stop-color="#02090d" />
+    </linearGradient>
+    <linearGradient id="glow-calc" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="accent-cyan-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .tangent-pulse { animation: tang 4s ease-in-out infinite alternate; }
+    @keyframes tang { 0% { transform: rotate(-5deg); } 100% { transform: rotate(8deg); } }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="540" height="260" rx="16" fill="url(#bg-calc)" stroke="#164e63" stroke-width="1.5" />
+  <rect width="540" height="260" rx="16" fill="url(#glow-calc)" />
+
+  <!-- Coordinate Grid & Math Graph Graphic -->
+  <g opacity="0.65" transform="translate(350, 35)">
+    <!-- Grid -->
+    <path d="M0 20 H150 M0 50 H150 M0 80 H150 M0 110 H150" stroke="#083344" stroke-width="1" />
+    <path d="M30 0 V130 M60 0 V130 M90 0 V130 M120 0 V130" stroke="#083344" stroke-width="1" />
+    
+    <!-- Axes -->
+    <line x1="0" y1="80" x2="150" y2="80" stroke="#155e75" stroke-width="1.5" />
+    <line x1="75" y1="0" x2="75" y2="130" stroke="#155e75" stroke-width="1.5" />
+    
+    <!-- Calculus Function Curve: f(x) -->
+    <path d="M10 115 Q 45 10 75 80 T 140 30" fill="none" stroke="#22d3ee" stroke-width="2.5" />
+    
+    <!-- Tangent Point -->
+    <circle cx="75" cy="80" r="4.5" fill="#34d399" />
+    
+    <!-- Tangent Slope Line: dy/dx -->
+    <g style="transform-origin: 75px 80px;" class="tangent-pulse">
+      <line x1="25" y1="125" x2="125" y2="35" stroke="#f43f5e" stroke-width="2" stroke-dasharray="3 3" opacity="0.9" />
+      <text x="130" y="32" class="mono" font-size="10" fill="#f43f5e" font-weight="700">dy/dx</text>
+    </g>
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="28" y="24" width="148" height="24" rx="12" fill="#083344" stroke="#0e7490" stroke-width="1" />
+  <circle cx="40" cy="36" r="3.5" fill="#22d3ee" />
+  <text x="50" y="40" class="mono" font-size="11" font-weight="600" fill="#22d3ee" letter-spacing="0.5">INTERACTIVE CALCULUS</text>
+
+  <!-- Formula Badge -->
+  <rect x="186" y="24" width="86" height="24" rx="12" fill="#064e3b" stroke="#047857" stroke-width="1" />
+  <text x="229" y="40" class="mono" font-size="11" font-weight="600" fill="#6ee7b7" text-anchor="middle">f'(x) VISUAL</text>
+
+  <!-- Title -->
+  <text x="28" y="86" class="sans" font-size="24" font-weight="700" fill="#f8fafc">Derivatives Field Guide</text>
+
+  <!-- Description -->
+  <text x="28" y="118" class="sans" font-size="13.5" fill="#94a3b8" font-weight="400">
+    <tspan x="28" dy="0">Interactive study guide for Stewart Calculus. Practice with</tspan>
+    <tspan x="28" dy="20">dynamic coordinate graphs and worked problem proofs.</tspan>
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(28, 172)">
+    <rect x="0" y="0" width="86" height="22" rx="6" fill="#164e63" />
+    <text x="43" y="15" class="mono" font-size="10.5" fill="#cffafe" text-anchor="middle">TypeScript</text>
+
+    <rect x="94" y="0" width="70" height="22" rx="6" fill="#164e63" />
+    <text x="129" y="15" class="mono" font-size="10.5" fill="#cffafe" text-anchor="middle">Next.js</text>
+
+    <rect x="172" y="0" width="108" height="22" rx="6" fill="#164e63" />
+    <text x="226" y="15" class="mono" font-size="10.5" fill="#cffafe" text-anchor="middle">Framer Motion</text>
+
+    <rect x="288" y="0" width="58" height="22" rx="6" fill="#164e63" />
+    <text x="317" y="15" class="mono" font-size="10.5" fill="#cffafe" text-anchor="middle">KaTeX</text>
+  </g>
+
+  <!-- Action Button / Link -->
+  <g transform="translate(28, 212)">
+    <rect x="0" y="0" width="134" height="28" rx="8" fill="url(#accent-cyan-emerald)" />
+    <text x="67" y="18" class="sans" font-size="12" font-weight="700" fill="#022c22" text-anchor="middle">Explore Guide ↗</text>
+    
+    <text x="150" y="18" class="mono" font-size="12" fill="#64748b">calculus-study-site.vercel.app</text>
+  </g>
+</svg>

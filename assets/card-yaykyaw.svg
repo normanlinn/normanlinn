@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="100%" height="100%" role="img" aria-label="Yay Kyaw Nights Project Card">
+  <defs>
+    <linearGradient id="bg-yay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120924" />
+      <stop offset="100%" stop-color="#06030d" />
+    </linearGradient>
+    <linearGradient id="glow-yay" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .wheel { transform-origin: 440px 90px; animation: spin 24s linear infinite; }
+    .twinkle { animation: blink 3s ease-in-out infinite alternate; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes blink { 0% { opacity: 0.3; } 100% { opacity: 0.9; } }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="540" height="260" rx="16" fill="url(#bg-yay)" stroke="#2e1065" stroke-width="1.5" />
+  <rect width="540" height="260" rx="16" fill="url(#glow-yay)" />
+
+  <!-- 3D Carnival Graphic (Ferris Wheel & Glowing Stars) -->
+  <g opacity="0.6">
+    <g class="wheel">
+      <circle cx="440" cy="90" r="55" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="4 6" opacity="0.4" />
+      <circle cx="440" cy="90" r="32" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.5" />
+      <line x1="440" y1="35" x2="440" y2="145" stroke="#c084fc" stroke-width="1" opacity="0.5" />
+      <line x1="385" y1="90" x2="495" y2="90" stroke="#c084fc" stroke-width="1" opacity="0.5" />
+      <line x1="401" y1="51" x2="479" y2="129" stroke="#f472b6" stroke-width="1" opacity="0.4" />
+      <line x1="401" y1="129" x2="479" y2="51" stroke="#f472b6" stroke-width="1" opacity="0.4" />
+      <circle cx="440" cy="35" r="4" fill="#fbbf24" />
+      <circle cx="440" cy="145" r="4" fill="#fbbf24" />
+      <circle cx="385" cy="90" r="4" fill="#38bdf8" />
+      <circle cx="495" cy="90" r="4" fill="#38bdf8" />
+      <circle cx="401" cy="51" r="3.5" fill="#ec4899" />
+      <circle cx="479" cy="129" r="3.5" fill="#ec4899" />
+      <circle cx="401" cy="129" r="3.5" fill="#a855f7" />
+      <circle cx="479" cy="51" r="3.5" fill="#a855f7" />
+    </g>
+    <!-- Center Hub -->
+    <circle cx="440" cy="90" r="6" fill="#f472b6" />
+    
+    <!-- Stars -->
+    <circle class="twinkle" cx="370" cy="45" r="2" fill="#fbbf24" />
+    <circle class="twinkle" cx="495" cy="35" r="1.5" fill="#38bdf8" />
+    <circle class="twinkle" cx="510" cy="130" r="2" fill="#f472b6" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="28" y="24" width="144" height="24" rx="12" fill="#3b0764" stroke="#581c87" stroke-width="1" />
+  <circle cx="40" cy="36" r="3.5" fill="#c084fc" />
+  <text x="50" y="40" class="mono" font-size="11" font-weight="600" fill="#c084fc" letter-spacing="0.5">3D WEBGL CARNIVAL</text>
+
+  <!-- Live Status Badge -->
+  <rect x="182" y="24" width="86" height="24" rx="12" fill="#450a0a" stroke="#7f1d1d" stroke-width="1" />
+  <circle cx="194" cy="36" r="3" fill="#f87171" />
+  <text x="204" y="40" class="mono" font-size="11" font-weight="600" fill="#fca5a5">PLAYABLE</text>
+
+  <!-- Title -->
+  <text x="28" y="86" class="sans" font-size="24" font-weight="700" fill="#f8fafc">Yay Kyaw Nights</text>
+
+  <!-- Description -->
+  <text x="28" y="118" class="sans" font-size="13.5" fill="#94a3b8" font-weight="400">
+    <tspan x="28" dy="0">An interactive 3D browser game inspired by Yangon’s</tspan>
+    <tspan x="28" dy="20">night fairs. Features WebGL lighting &amp; touch controls.</tspan>
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(28, 172)">
+    <rect x="0" y="0" width="76" height="22" rx="6" fill="#1e1b4b" />
+    <text x="38" y="15" class="mono" font-size="10.5" fill="#c7d2fe" text-anchor="middle">Three.js</text>
+
+    <rect x="84" y="0" width="86" height="22" rx="6" fill="#1e1b4b" />
+    <text x="127" y="15" class="mono" font-size="10.5" fill="#c7d2fe" text-anchor="middle">TypeScript</text>
+
+    <rect x="178" y="0" width="62" height="22" rx="6" fill="#1e1b4b" />
+    <text x="209" y="15" class="mono" font-size="10.5" fill="#c7d2fe" text-anchor="middle">WebGL</text>
+
+    <rect x="248" y="0" width="52" height="22" rx="6" fill="#1e1b4b" />
+    <text x="274" y="15" class="mono" font-size="10.5" fill="#c7d2fe" text-anchor="middle">Vite</text>
+  </g>
+
+  <!-- Action Button / Link -->
+  <g transform="translate(28, 212)">
+    <rect x="0" y="0" width="130" height="28" rx="8" fill="url(#accent-purple)" />
+    <text x="65" y="18" class="sans" font-size="12" font-weight="700" fill="#120924" text-anchor="middle">Play Game ↗</text>
+    
+    <text x="150" y="18" class="mono" font-size="12" fill="#64748b">yaykyawfair.vercel.app</text>
+  </g>
+</svg>

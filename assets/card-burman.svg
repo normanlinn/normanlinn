@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="100%" height="100%" role="img" aria-label="Burman Tea Project Card">
+  <defs>
+    <linearGradient id="bg-burman" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a12" />
+      <stop offset="100%" stop-color="#070a06" />
+    </linearGradient>
+    <linearGradient id="glow-burman" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#84cc16" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="accent-matcha" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a3e635" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .serif { font-family: "Georgia", serif; }
+    .steam { animation: float-steam 3s ease-in-out infinite alternate; }
+    @keyframes float-steam { 0% { transform: translateY(0); opacity: 0.4; } 100% { transform: translateY(-6px); opacity: 0.8; } }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="540" height="260" rx="16" fill="url(#bg-burman)" stroke="#27361f" stroke-width="1.5" />
+  <rect width="540" height="260" rx="16" fill="url(#glow-burman)" />
+
+  <!-- Botanical Leaf & Ceremonial Tea Graphic -->
+  <g opacity="0.65" transform="translate(380, 50)">
+    <!-- Rising Steam Curves -->
+    <path class="steam" d="M35 25 Q 40 10 32 0" fill="none" stroke="#a3e635" stroke-width="1.5" opacity="0.5" />
+    <path class="steam" d="M50 22 Q 58 8 50 0" fill="none" stroke="#facc15" stroke-width="1.5" opacity="0.4" style="animation-delay: -1s;" />
+    
+    <!-- Stylized Tea Leaf -->
+    <path d="M45 40 C 20 40 10 65 15 90 C 45 90 75 75 80 50 C 70 42 55 40 45 40 Z" fill="none" stroke="#a3e635" stroke-width="2" />
+    <path d="M25 80 Q 45 60 75 52" fill="none" stroke="#84cc16" stroke-width="1.5" stroke-dasharray="2 3" />
+    
+    <!-- Tea Cup Base Ring -->
+    <ellipse cx="45" cy="98" rx="42" ry="10" fill="none" stroke="#4d7c0f" stroke-width="1.5" />
+    <circle cx="45" cy="62" r="3" fill="#facc15" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="28" y="24" width="138" height="24" rx="12" fill="#1e2e17" stroke="#365314" stroke-width="1" />
+  <circle cx="40" cy="36" r="3.5" fill="#a3e635" />
+  <text x="50" y="40" class="mono" font-size="11" font-weight="600" fill="#bef264" letter-spacing="0.5">EDITORIAL COMMERCE</text>
+
+  <!-- Bilingual Badge -->
+  <rect x="176" y="24" width="92" height="24" rx="12" fill="#2d2208" stroke="#713f12" stroke-width="1" />
+  <text x="222" y="40" class="mono" font-size="11" font-weight="600" fill="#fde047" text-anchor="middle">EN / MM DUAL</text>
+
+  <!-- Title -->
+  <text x="28" y="86" class="sans" font-size="24" font-weight="700" fill="#f8fafc">Burman Tea</text>
+
+  <!-- Description -->
+  <text x="28" y="118" class="sans" font-size="13.5" fill="#94a3b8" font-weight="400">
+    <tspan x="28" dy="0">Bilingual digital storefront for an artisanal Burmese tea shop</tspan>
+    <tspan x="28" dy="20">in Los Angeles. Crafted with editorial typography and motion.</tspan>
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(28, 172)">
+    <rect x="0" y="0" width="62" height="22" rx="6" fill="#1f2d1a" />
+    <text x="31" y="15" class="mono" font-size="10.5" fill="#d9f99d" text-anchor="middle">React</text>
+
+    <rect x="70" y="0" width="94" height="22" rx="6" fill="#1f2d1a" />
+    <text x="117" y="15" class="mono" font-size="10.5" fill="#d9f99d" text-anchor="middle">TailwindCSS</text>
+
+    <rect x="172" y="0" width="108" height="22" rx="6" fill="#1f2d1a" />
+    <text x="226" y="15" class="mono" font-size="10.5" fill="#d9f99d" text-anchor="middle">Framer Motion</text>
+
+    <rect x="288" y="0" width="86" height="22" rx="6" fill="#1f2d1a" />
+    <text x="331" y="15" class="mono" font-size="10.5" fill="#d9f99d" text-anchor="middle">Bilingual UI</text>
+  </g>
+
+  <!-- Action Button / Link -->
+  <g transform="translate(28, 212)">
+    <rect x="0" y="0" width="124" height="28" rx="8" fill="url(#accent-matcha)" />
+    <text x="62" y="18" class="sans" font-size="12" font-weight="700" fill="#141a12" text-anchor="middle">Visit Site ↗</text>
+    
+    <text x="145" y="18" class="mono" font-size="12" fill="#64748b">burmantea.vercel.app</text>
+  </g>
+</svg>
