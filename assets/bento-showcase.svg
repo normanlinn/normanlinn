@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="100%" height="100%" role="img" aria-label="Selected Projects Bento Grid">
+  <defs>
+    <!-- Card 1: LAXCommute Gradients -->
+    <linearGradient id="bento-bg-lax" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1224" />
+      <stop offset="100%" stop-color="#040812" />
+    </linearGradient>
+    <linearGradient id="bento-glow-lax" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card 2: Yay Kyaw Nights Gradients -->
+    <linearGradient id="bento-bg-yay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a26" />
+      <stop offset="100%" stop-color="#06030e" />
+    </linearGradient>
+    <linearGradient id="bento-glow-yay" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card 3: Derivatives Gradients -->
+    <linearGradient id="bento-bg-calc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06181f" />
+      <stop offset="100%" stop-color="#02090d" />
+    </linearGradient>
+    <linearGradient id="bento-glow-calc" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card 4: Burman Tea Gradients -->
+    <linearGradient id="bento-bg-tea" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a12" />
+      <stop offset="100%" stop-color="#070a06" />
+    </linearGradient>
+    <linearGradient id="bento-glow-tea" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#eab308" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .pulse-dot { animation: pulse 2s ease-in-out infinite; }
+    .spin-wheel { transform-origin: 330px 75px; animation: spin 24s linear infinite; }
+    .tangent-pulse { transform-origin: 55px 55px; animation: tang 4s ease-in-out infinite alternate; }
+    .steam-float { animation: steam 3s ease-in-out infinite alternate; }
+    @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes tang { 0% { transform: rotate(-6deg); } 100% { transform: rotate(8deg); } }
+    @keyframes steam { 0% { transform: translateY(0); opacity: 0.35; } 100% { transform: translateY(-5px); opacity: 0.75; } }
+  </style>
+
+  <!-- ==================== CARD 1: LAXCOMMUTE (TOP LEFT) ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="412" height="252" rx="14" fill="url(#bento-bg-lax)" stroke="#1e293b" stroke-width="1.2" />
+    <rect width="412" height="252" rx="14" fill="url(#bento-glow-lax)" />
+
+    <!-- Radar scope graphic top right -->
+    <g opacity="0.65" transform="translate(230, 10)">
+      <circle cx="110" cy="70" r="50" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 4" opacity="0.25" />
+      <circle cx="110" cy="70" r="32" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 3" opacity="0.35" />
+      <circle cx="110" cy="70" r="14" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.5" />
+      <circle class="pulse-dot" cx="110" cy="70" r="10" fill="#38bdf8" opacity="0.25" />
+      <circle cx="110" cy="70" r="3.5" fill="#38bdf8" />
+      <path d="M 60 110 Q 85 90 110 70 T 155 40" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+      <path d="M 155 40 L 162 37 L 158 43 L 160 48 Z" fill="#38bdf8" opacity="0.9" />
+    </g>
+
+    <!-- Header Tags -->
+    <rect x="22" y="22" width="130" height="22" rx="11" fill="#0c2340" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="33" cy="33" r="3" fill="#38bdf8" />
+    <text x="42" y="37" class="mono" font-size="10" font-weight="600" fill="#38bdf8">01 / AIRPORT TRANSIT</text>
+
+    <rect x="160" y="22" width="70" height="22" rx="11" fill="#052e16" stroke="#166534" stroke-width="1" />
+    <circle cx="170" cy="33" r="3" fill="#22c55e" class="pulse-dot" />
+    <text x="178" y="37" class="mono" font-size="10" font-weight="600" fill="#4ade80">ONLINE</text>
+
+    <!-- Title & Desc -->
+    <text x="22" y="80" class="sans" font-size="22" font-weight="700" fill="#f8fafc">LAXCommute</text>
+    <text x="22" y="110" class="sans" font-size="12.5" fill="#94a3b8">
+      <tspan x="22" dy="0">Real-time airport shuttle route-finding &amp; arrivals,</tspan>
+      <tspan x="22" dy="18">built for LAX employees navigating terminals.</tspan>
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(22, 162)">
+      <rect x="0" y="0" width="64" height="20" rx="5" fill="#1e293b" />
+      <text x="32" y="14" class="mono" font-size="10" fill="#cbd5e1" text-anchor="middle">Next.js</text>
+      <rect x="70" y="0" width="78" height="20" rx="5" fill="#1e293b" />
+      <text x="109" y="14" class="mono" font-size="10" fill="#cbd5e1" text-anchor="middle">TypeScript</text>
+      <rect x="154" y="0" width="74" height="20" rx="5" fill="#1e293b" />
+      <text x="191" y="14" class="mono" font-size="10" fill="#cbd5e1" text-anchor="middle">Transit API</text>
+    </g>
+
+    <!-- Action Link Indicator -->
+    <g transform="translate(22, 202)">
+      <rect x="0" y="0" width="112" height="26" rx="6" fill="#0284c7" />
+      <text x="56" y="17" class="sans" font-size="11.5" font-weight="700" fill="#f0f9ff" text-anchor="middle">Live App ↗</text>
+      <text x="124" y="17" class="mono" font-size="11" fill="#64748b">employeeshuttlelax.com</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: YAY KYAW NIGHTS (TOP RIGHT) ==================== -->
+  <g transform="translate(428, 0)">
+    <rect width="412" height="252" rx="14" fill="url(#bento-bg-yay)" stroke="#2e1065" stroke-width="1.2" />
+    <rect width="412" height="252" rx="14" fill="url(#bento-glow-yay)" />
+
+    <!-- 3D Ferris Wheel graphic top right -->
+    <g opacity="0.6" transform="translate(0, 5)">
+      <g class="spin-wheel">
+        <circle cx="330" cy="75" r="46" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="3 5" opacity="0.4" />
+        <circle cx="330" cy="75" r="26" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.5" />
+        <line x1="330" y1="29" x2="330" y2="121" stroke="#c084fc" stroke-width="1" opacity="0.5" />
+        <line x1="284" y1="75" x2="376" y2="75" stroke="#c084fc" stroke-width="1" opacity="0.5" />
+        <circle cx="330" cy="29" r="3" fill="#fbbf24" />
+        <circle cx="330" cy="121" r="3" fill="#fbbf24" />
+        <circle cx="284" cy="75" r="3" fill="#38bdf8" />
+        <circle cx="376" cy="75" r="3" fill="#38bdf8" />
+      </g>
+      <circle cx="330" cy="80" r="5" fill="#f472b6" />
+      <circle cx="270" cy="35" r="1.5" fill="#fbbf24" />
+      <circle cx="385" cy="120" r="1.5" fill="#38bdf8" />
+    </g>
+
+    <!-- Header Tags -->
+    <rect x="22" y="22" width="134" height="22" rx="11" fill="#3b0764" stroke="#581c87" stroke-width="1" />
+    <circle cx="33" cy="33" r="3" fill="#c084fc" />
+    <text x="42" y="37" class="mono" font-size="10" font-weight="600" fill="#c084fc">02 / 3D WEBGL GAME</text>
+
+    <rect x="164" y="22" width="76" height="22" rx="11" fill="#450a0a" stroke="#7f1d1d" stroke-width="1" />
+    <circle cx="174" cy="33" r="3" fill="#f87171" />
+    <text x="183" y="37" class="mono" font-size="10" font-weight="600" fill="#fca5a5">PLAYABLE</text>
+
+    <!-- Title & Desc -->
+    <text x="22" y="80" class="sans" font-size="22" font-weight="700" fill="#f8fafc">Yay Kyaw Nights</text>
+    <text x="22" y="110" class="sans" font-size="12.5" fill="#94a3b8">
+      <tspan x="22" dy="0">Interactive 3D browser carnival inspired by Yangon’s</tspan>
+      <tspan x="22" dy="18">night market. WebGL lighting &amp; touch physics.</tspan>
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(22, 162)">
+      <rect x="0" y="0" width="70" height="20" rx="5" fill="#1e1b4b" />
+      <text x="35" y="14" class="mono" font-size="10" fill="#c7d2fe" text-anchor="middle">Three.js</text>
+      <rect x="76" y="0" width="78" height="20" rx="5" fill="#1e1b4b" />
+      <text x="115" y="14" class="mono" font-size="10" fill="#c7d2fe" text-anchor="middle">TypeScript</text>
+      <rect x="160" y="0" width="56" height="20" rx="5" fill="#1e1b4b" />
+      <text x="188" y="14" class="mono" font-size="10" fill="#c7d2fe" text-anchor="middle">WebGL</text>
+    </g>
+
+    <!-- Action Link Indicator -->
+    <g transform="translate(22, 202)">
+      <rect x="0" y="0" width="116" height="26" rx="6" fill="#9333ea" />
+      <text x="58" y="17" class="sans" font-size="11.5" font-weight="700" fill="#fdf4ff" text-anchor="middle">Play Game ↗</text>
+      <text x="128" y="17" class="mono" font-size="11" fill="#64748b">yaykyawfair.vercel.app</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: DERIVATIVES (BOTTOM LEFT) ==================== -->
+  <g transform="translate(0, 268)">
+    <rect width="412" height="252" rx="14" fill="url(#bento-bg-calc)" stroke="#164e63" stroke-width="1.2" />
+    <rect width="412" height="252" rx="14" fill="url(#bento-glow-calc)" />
+
+    <!-- Math Coordinate Plane top right -->
+    <g opacity="0.65" transform="translate(270, 20)">
+      <path d="M 0 15 H 110 M 0 40 H 110 M 0 65 H 110 M 0 90 H 110" stroke="#083344" stroke-width="0.8" />
+      <path d="M 25 0 V 100 M 55 0 V 100 M 85 0 V 100" stroke="#083344" stroke-width="0.8" />
+      <line x1="0" y1="65" x2="110" y2="65" stroke="#155e75" stroke-width="1.2" />
+      <line x1="55" y1="0" x2="55" y2="100" stroke="#155e75" stroke-width="1.2" />
+      <path d="M 10 95 Q 35 10 55 65 T 105 20" fill="none" stroke="#22d3ee" stroke-width="2" />
+      <circle cx="55" cy="65" r="4" fill="#34d399" />
+      <g class="tangent-pulse">
+        <line x1="20" y1="95" x2="90" y2="35" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3" />
+      </g>
+    </g>
+
+    <!-- Header Tags -->
+    <rect x="22" y="22" width="138" height="22" rx="11" fill="#083344" stroke="#0e7490" stroke-width="1" />
+    <circle cx="33" cy="33" r="3" fill="#22d3ee" />
+    <text x="42" y="37" class="mono" font-size="10" font-weight="600" fill="#22d3ee">03 / STUDY COMPANION</text>
+
+    <rect x="168" y="22" width="84" height="22" rx="11" fill="#064e3b" stroke="#047857" stroke-width="1" />
+    <text x="210" y="37" class="mono" font-size="10" font-weight="600" fill="#6ee7b7" text-anchor="middle">f'(x) VISUAL</text>
+
+    <!-- Title & Desc -->
+    <text x="22" y="80" class="sans" font-size="22" font-weight="700" fill="#f8fafc">Derivatives Field Guide</text>
+    <text x="22" y="110" class="sans" font-size="12.5" fill="#94a3b8">
+      <tspan x="22" dy="0">Interactive study tool for Stewart Calculus with</tspan>
+      <tspan x="22" dy="18">dynamic coordinate graphs &amp; tangent slope proofs.</tspan>
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(22, 162)">
+      <rect x="0" y="0" width="78" height="20" rx="5" fill="#164e63" />
+      <text x="39" y="14" class="mono" font-size="10" fill="#cffafe" text-anchor="middle">TypeScript</text>
+      <rect x="84" y="0" width="64" height="20" rx="5" fill="#164e63" />
+      <text x="116" y="14" class="mono" font-size="10" fill="#cffafe" text-anchor="middle">Next.js</text>
+      <rect x="154" y="0" width="94" height="20" rx="5" fill="#164e63" />
+      <text x="201" y="14" class="mono" font-size="10" fill="#cffafe" text-anchor="middle">Framer Motion</text>
+    </g>
+
+    <!-- Action Link Indicator -->
+    <g transform="translate(22, 202)">
+      <rect x="0" y="0" width="124" height="26" rx="6" fill="#0d9488" />
+      <text x="62" y="17" class="sans" font-size="11.5" font-weight="700" fill="#f0fdfa" text-anchor="middle">Explore Guide ↗</text>
+      <text x="136" y="17" class="mono" font-size="11" fill="#64748b">calculus-study-site</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 4: BURMAN TEA (BOTTOM RIGHT) ==================== -->
+  <g transform="translate(428, 268)">
+    <rect width="412" height="252" rx="14" fill="url(#bento-bg-tea)" stroke="#27361f" stroke-width="1.2" />
+    <rect width="412" height="252" rx="14" fill="url(#bento-glow-tea)" />
+
+    <!-- Botanical Tea graphic top right -->
+    <g opacity="0.65" transform="translate(300, 30)">
+      <path class="steam-float" d="M 28 20 Q 34 8 28 0" fill="none" stroke="#a3e635" stroke-width="1.5" opacity="0.5" />
+      <path class="steam-float" d="M 42 16 Q 48 6 42 0" fill="none" stroke="#facc15" stroke-width="1.5" opacity="0.4" style="animation-delay: -1s;" />
+      <path d="M 35 32 C 16 32 8 52 12 72 C 36 72 60 60 64 40 C 56 34 44 32 35 32 Z" fill="none" stroke="#a3e635" stroke-width="1.8" />
+      <ellipse cx="35" cy="80" rx="34" ry="8" fill="none" stroke="#4d7c0f" stroke-width="1.2" />
+      <circle cx="35" cy="50" r="2.5" fill="#facc15" />
+    </g>
+
+    <!-- Header Tags -->
+    <rect x="22" y="22" width="134" height="22" rx="11" fill="#1e2e17" stroke="#365314" stroke-width="1" />
+    <circle cx="33" cy="33" r="3" fill="#a3e635" />
+    <text x="42" y="37" class="mono" font-size="10" font-weight="600" fill="#bef264">04 / BRAND &amp; SHOP</text>
+
+    <rect x="164" y="22" width="82" height="22" rx="11" fill="#2d2208" stroke="#713f12" stroke-width="1" />
+    <text x="205" y="37" class="mono" font-size="10" font-weight="600" fill="#fde047" text-anchor="middle">EN / MM DUAL</text>
+
+    <!-- Title & Desc -->
+    <text x="22" y="80" class="sans" font-size="22" font-weight="700" fill="#f8fafc">Burman Tea</text>
+    <text x="22" y="110" class="sans" font-size="12.5" fill="#94a3b8">
+      <tspan x="22" dy="0">Bilingual digital storefront for an artisanal Burmese</tspan>
+      <tspan x="22" dy="18">tea shop in Los Angeles. Editorial typography &amp; UI.</tspan>
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(22, 162)">
+      <rect x="0" y="0" width="58" height="20" rx="5" fill="#1f2d1a" />
+      <text x="29" y="14" class="mono" font-size="10" fill="#d9f99d" text-anchor="middle">React</text>
+      <rect x="64" y="0" width="86" height="20" rx="5" fill="#1f2d1a" />
+      <text x="107" y="14" class="mono" font-size="10" fill="#d9f99d" text-anchor="middle">TailwindCSS</text>
+      <rect x="156" y="0" width="80" height="20" rx="5" fill="#1f2d1a" />
+      <text x="196" y="14" class="mono" font-size="10" fill="#d9f99d" text-anchor="middle">Bilingual UI</text>
+    </g>
+
+    <!-- Action Link Indicator -->
+    <g transform="translate(22, 202)">
+      <rect x="0" y="0" width="112" height="26" rx="6" fill="#65a30d" />
+      <text x="56" y="17" class="sans" font-size="11.5" font-weight="700" fill="#f7fee7" text-anchor="middle">Visit Site ↗</text>
+      <text x="124" y="17" class="mono" font-size="11" fill="#64748b">burmantea.vercel.app</text>
+    </g>
+  </g>
+</svg>

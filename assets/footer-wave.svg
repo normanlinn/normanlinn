@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 100" width="100%" height="100%" role="img" aria-label="Thanks for stopping by">
+  <defs>
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .wave-slide { animation: wave 12s linear infinite; }
+    .w2 { animation-duration: 18s; opacity: 0.45; }
+    @keyframes wave { to { transform: translateX(-840px); } }
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Wave Layer 1 -->
+  <g class="wave-slide w2">
+    <path fill="url(#wave-grad)" d="M 0 65 Q 105 45 210 65 T 420 65 T 630 65 T 840 65 T 1050 65 T 1260 65 T 1470 65 T 1680 65 V 100 H 0 Z" />
+  </g>
+
+  <!-- Wave Layer 2 -->
+  <g class="wave-slide">
+    <path fill="url(#wave-grad)" opacity="0.8" d="M 0 76 Q 105 58 210 76 T 420 76 T 630 76 T 840 76 T 1050 76 T 1260 76 T 1470 76 T 1680 76 V 100 H 0 Z" />
+  </g>
+
+  <!-- Centered Message -->
+  <text class="mono" x="420" y="38" text-anchor="middle" font-size="13" font-weight="600" fill="#7dd3fc" letter-spacing="1">
+    thoughtful code ✦ interfaces that move ✦ see you in the commits
+  </text>
+</svg>
