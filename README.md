@@ -4,7 +4,7 @@
 <img src="./assets/hero-editorial.svg" width="100%" alt="Zaw Lin Naing — Developer Pass 2026" />
 
 <p align="center" style="margin-top: 14px; margin-bottom: 18px;">
-  <a href="https://normanlinn.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0B101B?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="Portfolio" /></a>
+  <a href="https://normanlinn.github.io/"><img src="https://img.shields.io/badge/Portfolio-0B101B?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="Portfolio" /></a>
   <a href="https://github.com/normanlinn?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0B101B?style=for-the-badge&logo=github&logoColor=38bdf8" alt="Repositories" /></a>
   <a href="mailto:zawlinnaing2003@icloud.com"><img src="https://img.shields.io/badge/Email_Me-0B101B?style=for-the-badge&logo=icloud&logoColor=38bdf8" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=normanlinn&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
@@ -24,12 +24,12 @@
   <strong>🛫 LAXCommute</strong> &nbsp;[ <a href="https://employeeshuttlelax.com/">Live App ↗</a> · <a href="https://github.com/normanlinn/LAXCommute">Source Code</a> ] &nbsp;&nbsp;✦&nbsp;&nbsp;
   <strong>🏮 Yay Kyaw Nights</strong> &nbsp;[ <a href="https://yaykyawfair.vercel.app/">Play Game ↗</a> · <a href="https://github.com/normanlinn/yaykyawfair">Source Code</a> ]
   <br />
-  <strong>📐 Derivatives Guide</strong> &nbsp;[ <a href="https://calculus-study-site.vercel.app/">Study Guide ↗</a> · <a href="https://github.com/normanlinn/calculus-study-site">Source Code</a> ] &nbsp;&nbsp;✦&nbsp;&nbsp;
+  <strong>📐 Derivatives Guide</strong> &nbsp;[ <a href="https://normanlinn.github.io/calculus-study-site/">Study Guide ↗</a> · <a href="https://github.com/normanlinn/calculus-study-site">Source Code</a> ] &nbsp;&nbsp;✦&nbsp;&nbsp;
   <strong>🍵 Burman Tea</strong> &nbsp;[ <a href="https://burmantea.vercel.app/">Visit Site ↗</a> ]
 </p>
 
 <p align="center">
-  <a href="https://normanlinn.github.io/portfolio/"><strong>✦ Explore Full Interactive Portfolio &amp; Motion Experiments ↗</strong></a>
+  <a href="https://normanlinn.github.io/"><strong>✦ Explore the 3D airport portfolio ↗</strong></a> &nbsp;·&nbsp; <a href="https://normanlinn.github.io/quick/"><strong>Quick view ↗</strong></a>
 </p>
 
 ---
